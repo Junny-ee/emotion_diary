@@ -1,0 +1,34 @@
+.Editor > section {
+  padding-bottom: 30px;
+}
+
+.Editor > section > h3 {
+  font-size: 22px;
+}
+
+.Editor > section > input,
+textarea {
+  background-color: rgb(236, 236, 236);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.Editor > section > textarea {
+  width: 100%;
+  min-height: 200px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.Editor > .emotion_section > .emotion_wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 2%;
+}
+
+.Editor > .button_section {
+  display: flex;
+  justify-content: space-between;
+}
